@@ -1,5 +1,6 @@
 package programmers.level1;
 
+// https://programmers.co.kr/learn/courses/30/lessons/77484?language=java
 public class Lotto {
 
 	public int[] solution(int[] lottos, int[] win_nums) {
@@ -31,3 +32,4 @@ public class Lotto {
     }
 
 }
+
