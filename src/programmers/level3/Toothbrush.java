@@ -24,16 +24,14 @@ public class Toothbrush {
 			while(true) {
 				if(profit < 1)				
 					break;
-				if("-".equals(ref)) {
-					answer[num] += profit - (profit/10);
+				
+				answer[num] += profit - (profit/10);
+				if("-".equals(ref))
 					break;
-				}
-				else {
-					answer[num] += profit - (profit/10);
-					num = numberMap.get(ref);
-					ref = relationMap.get(enroll[num]);
-					profit /= 10;
-				}
+				num = numberMap.get(ref);
+				ref = relationMap.get(enroll[num]);
+				profit /= 10;
+				
 			}
 		}
 		
